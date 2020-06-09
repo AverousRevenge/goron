@@ -36,7 +36,7 @@
 		<NaturalSkills Value="SKILL_PACK-NATURAL_ANIMAL_BITE"/>
 		<ClassSkills Value="SKILL_PACK-CLASS_GATHERER"/>
 		<AdvancementSkills Value="SKILL_PACK-ADV_GATHERER"/>
-		<GraphicFemale Value="Gorgond01"/>		
+		<GraphicFemale Value="Gorgon01"/>		
 		<!-- DefaultCargo -->
 		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_FOOD"/>
 		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_FOOD"/>
@@ -48,6 +48,6 @@
 		<DefaultCargo Chance="30" ItemCargo="ITEM_CARGO-BASIC_HORDE_FOOD"/>
 		<DefaultCargo Chance="10" ItemCargo="ITEM_CARGO-ADV_PACK_MATERIALS"/>
 		<!-- BodyCargo -->
-	</SUBRACE-KOBOLD>
+	</SUBRACE-Gorgon>
 
 </SUBRACES>
