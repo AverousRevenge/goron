@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Demo Mod" Graphic="" Visibility="0">  
+	<DB>XML/DATABASE_DES_NAMES_DM.xml</DB>
+	<DB>XML/DATABASE_RACES_DM.xml</DB>
+	<DB>XML/DATABASE_SUBRACE_DM.xml</DB>
+	
+	<IMAGE Name="Kobold01" Model="GoblinChild1" Path="Images/Kobold01.png" Path2="Images/Kobold01P.png" MemoryStorage="true" TagMode="false" EventImage="false"/>
+	<IMAGE Name="Kobold02" Model="GoblinChild2" Path="Images/Kobold02.png" Path2="Images/Kobold02P.png" MemoryStorage="true" TagMode="false" EventImage="false"/>
+
+
+	<TAG>Demo</TAG>
+
+
+</ModInfo>

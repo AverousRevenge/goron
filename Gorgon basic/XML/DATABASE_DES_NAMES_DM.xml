@@ -1,0 +1,19 @@
+﻿<!-- If there is no subrace name defined for a particular race member, the name will default to the first one it can find for that race -->
+<!-- Example - if Rat is the only subrace with a defined name in the Beast race, all other Beasts will be called Rat -->
+
+<!-- Subrace values do not properly go through localisation table yet! -->
+
+<CHARACTER_NAMES>
+	
+	<NAME_COLLECTION-Gorgons>
+		<Race Value="RACE-Gorgon"/>
+		<CharacterFemale Value="Vita"/>
+		<CharacterFemale Value="Amatrista"/>
+		<CharacterFemale Value="Amabel"/>
+		<CharacterFemale Value="Valerie"/>
+		<CharacterFemale Value="Vanna"/>
+		<CharacterFemale Value="Kaarina"/>
+		<CharacterFemale Value="Kaipo"/>
+	</NAME_COLLECTION-Gorgons>
+
+</CHARACTER_NAMES>

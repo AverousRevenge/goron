@@ -1,0 +1,53 @@
+﻿<SUBRACES>
+
+	<!-- KOBOLD -->
+	<SUBRACE-Gorgon>
+		<DescriptionInfo Name="Gorgon" Description="A small creature." IconName="ClassGatherer"/>
+		<Race Value="RACE-Gorgon"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-HUMANOID"/>
+		<SecondSubraceAttributes Amount="1" Tag="TAG-GATHERER"/>
+		<MainSubraceAttributes Amount="4" Tag="TAG-WITS"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-STRENGTH"/>
+		<MainSubraceAttributes Amount="3" Tag="TAG-PERCEPTION"/>
+		<MainSubraceAttributes Amount="5" Tag="TAG-INTELLIGENCE"/>
+		<MainSubraceAttributes Amount="4" Tag="TAG-WISDOM"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-MYSTICISM"/>
+		<MainSubraceAttributes Amount="2" Tag="TAG-DESTINY"/>
+		<SecondSubraceAttributes Amount="19" Tag="TAG-MAX_HEALTH_PHYSICAL"/>
+		<SecondSubraceAttributes Amount="24" Tag="TAG-MAX_HEALTH_MENTAL"/>
+		<SecondSubraceAttributes Amount="18" Tag="TAG-MAX_HEALTH_SPIRIT"/>
+		<SecondSubraceAttributes Amount="5" Tag="TAG-MOVEMENT_RANGE"/>
+		<SecondSubraceAttributes Amount="3" Tag="TAG-RANGE_OF_SIGHT_DAY"/>
+		<SecondSubraceAttributes Amount="2" Tag="TAG-RANGE_OF_SIGHT_NIGHT"/>
+		<SecondSubraceAttributes Amount="10" Tag="TAG-MORALE"/>
+        <SecondSubraceAttributes Amount="200" Tag="TAG-PERSONAL_CARRY_LIMIT"/>
+		<CommonSubraceAttributes Chance="100">
+			<CountedTag Amount="1" Tag="TAG-GENDER_FEMALE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="2">
+			<CountedTag Amount="1" Tag="TAG-CREEPY"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="10">
+			<CountedTag Amount="1" Tag="TAG-ATTRACTIVE"/>
+		</CommonSubraceAttributes>
+		<CommonSubraceAttributes Chance="10">
+			<CountedTag Amount="1" Tag="TAG-BEAUTIFUL"/>
+		</CommonSubraceAttributes>
+		<NaturalSkills Value="SKILL_PACK-NATURAL_ANIMAL_BITE"/>
+		<ClassSkills Value="SKILL_PACK-CLASS_GATHERER"/>
+		<AdvancementSkills Value="SKILL_PACK-ADV_GATHERER"/>
+		<GraphicFemale Value="Gorgond01"/>		
+		<!-- DefaultCargo -->
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_FOOD"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_FOOD"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_PACK_SUPPLIES"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_LIGHT_RANGE_WEAPON"/>
+		<DefaultCargo Chance="100" ItemCargo="ITEM_CARGO-BASIC_ONE_ROBE"/>
+		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-ADV_PACK_MATERIALS"/>
+		<DefaultCargo Chance="50" ItemCargo="ITEM_CARGO-BASIC_PACK_MATERIALS"/>
+		<DefaultCargo Chance="30" ItemCargo="ITEM_CARGO-BASIC_HORDE_FOOD"/>
+		<DefaultCargo Chance="10" ItemCargo="ITEM_CARGO-ADV_PACK_MATERIALS"/>
+		<!-- BodyCargo -->
+	</SUBRACE-KOBOLD>
+
+</SUBRACES>

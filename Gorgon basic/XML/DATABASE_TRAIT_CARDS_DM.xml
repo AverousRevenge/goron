@@ -1,0 +1,10 @@
+﻿<TRAIT_CARD_CARDS>
+
+	<TRAIT_CARD-ADD_GORGON UnlockCost="0" UseCost="2">
+		<DescriptionInfo Name="Add a character - Gorgon" Description="Begin with an additional character - A gorgon" IconName="DomainNeutral"/>
+		<AddSubrace Value="SUBRACE-HUM_STRONG_CHILD1"/> 
+		<DomainType Value="TAG-DOMAIN_NEUTRAL"/>
+	</TRAIT_CARD-ADD_GORGON>
+
+	
+</TRAIT_CARD_CARDS>
