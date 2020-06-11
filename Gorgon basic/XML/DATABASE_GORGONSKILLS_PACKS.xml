@@ -1,0 +1,114 @@
+﻿<SKILLS_PACKS>
+	<!-- 0-30 noob, 0-70 normal, 20-90 adv character, 91-100 only gods or from story-->
+  	
+	<!-- Non skill pack do not have any skill, used for wall type summons-->
+	<SKILL_PACK-NONE>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NONE>
+	
+	<!-- NATURAL SKILLS-->
+	<SKILL_PACK-NATURAL_GORGON_SNAKES>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-LEECH_BITE"/>
+		<GuarantedSkill Value="SKILL-POISON_SPIT"/>
+        <GuarantedSkill Value="SKILL-SHOWING_OFF"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_GORGON_SNAKES>
+	<SKILL_PACK-NATURAL_STRIGA_BITE_FLYING>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-LEECH_BITE"/>
+        <GuarantedSkill Value="SKILL-SHOWING_OFF"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_STRIGA_BITE_FLYING>
+	
+	<!-- TUTORIAL 
+	<SKILL_PACK-TUT_WARRIOR>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+		<GuarantedSkill Value="SKILL-TOUGHNESS"/>
+		<GuarantedSkill Value="SKILL-PARRY"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-TUT_WARRIOR>
+	<SKILL_PACK-TUT_ZERCA>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+		<GuarantedSkill Value="SKILL-RELIABLE_ARGUMENT"/>
+		<GuarantedSkill Value="SKILL-INSPIRE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-TUT_ZERCA>
+	<SKILL_PACK-TUT_SHAMAN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+		<GuarantedSkill Value="SKILL-SUMMON_SHAMAN_MINION"/>
+		<GuarantedSkill Value="SKILL-SOUL_TEAR"/>
+		<GuarantedSkill Value="SKILL-RACE_GOBLINS"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-TUT_SHAMAN>
+	<SKILL_PACK-TUT_ANIMAL_BITE>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+        <GuarantedSkill Value="SKILL-BITE"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-TUT_ANIMAL_BITE>
+	<SKILL_PACK-TUT_GHOST>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+        <GuarantedSkill Value="SKILL-WEAKNESS"/>
+        <GuarantedSkill Value="SKILL-GHOST_TOUCH"/>
+		<GuarantedSkill Value="SKILL-RACE_UNLI"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-TUT_GHOST>
+	<SKILL_PACK-TUT_BAT>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+        <GuarantedSkill Value="SKILL-BITE"/>
+		<GuarantedSkill Value="SKILL-DIVE_ATTACK"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-TUT_BAT>
+	<SKILL_PACK-TUT_CHIEFTAIN>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+        <GuarantedSkill Value="SKILL-DIZZINESS_POWDER"/>
+        <GuarantedSkill Value="SKILL-RELIABLE_ARGUMENT"/>
+		<GuarantedSkill Value="SKILL-RACE_GOBLINS"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+	</SKILL_PACK-TUT_CHIEFTAIN>
+	<SKILL_PACK-TUT_SPIDER_SPITTING>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+        <GuarantedSkill Value="SKILL-POISON_SPIT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-TUT_SPIDER_SPITTING>
+	<SKILL_PACK-TUT_WITCH>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-BLUNT_ATTACK"/>
+        <GuarantedSkill Value="SKILL-FROGS_RAIN"/>
+        <GuarantedSkill Value="SKILL-POISON_DUST"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="OptionalType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-TUT_WITCH>-->
+</SKILLS_PACKS>

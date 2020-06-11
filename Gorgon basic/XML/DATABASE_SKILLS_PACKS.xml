@@ -1,0 +1,31 @@
+﻿<SKILLS_PACKS>
+	<!-- 0-30 noob, 0-70 normal, 20-90 adv character, 91-100 only gods or from story-->
+  	
+	<!-- Non skill pack do not have any skill, used for wall type summons-->
+	<SKILL_PACK-NONE>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="None" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NONE>
+	
+	<!-- NATURAL SKILLS-->
+	
+	<SKILL_PACK-NATURAL_GORGON_SNAKES>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+		<GuarantedSkill Value="SKILL-LEECH_BITE"/>
+         <GuarantedSkill Value="SKILL-POISON_SPIT"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_GORGON_SNAKES>
+	<SKILL_PACK-NATURAL_STRIGA_BITE_FLYING>
+        <RarityRange MinimumCount="0" MaximumCount="100"/>
+        <GuarantedSkill Value="SKILL-LEECH_BITE"/>
+        <GuarantedSkill Value="SKILL-SHOWING_OFF"/>
+		<SkillGroupFilters>
+			<SkillGroupSingleFilter Name="Fallback" Requirement="NecessaryType"/>
+		</SkillGroupFilters>
+    </SKILL_PACK-NATURAL_STRIGA_BITE_FLYING>
+	
+</SKILLS_PACKS>

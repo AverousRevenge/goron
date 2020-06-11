@@ -2,6 +2,7 @@
 
 <ModInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Demo" Graphic="" Visibility="0">  
 	<DB>XML/DATABASE_DES_NAMES_DM.xml</DB>
+       <DB>XML/DATABASE_GORGONSKILLS_PACKS.xml</DB>
 	<DB>XML/DATABASE_RACES_DM.xml</DB>
 	<DB>XML/DATABASE_SUBRACE_DM.xml</DB>
 	<DB>XML/DATABASE_TRAIT_CARDS_DM.xml</DB>
